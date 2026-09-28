@@ -68,7 +68,7 @@ All critical joints and bearing surfaces were sized against industrial machine e
 | **Clutch-to-Sprocket Spline** | Straight-sided Spline ($z_b=6$) | Surface pressure $p_b = 22.2\ \mathrm{MPa}$ | $p_{b,\max} = 30.0\ \mathrm{MPa}$ | **Passed** ($S_F = 1.35$) |
 | **Roller Chain Drive** | DIN 8187 ($08\mathrm{B}\text{-}1$, $P=12.7\ \mathrm{mm}$) | Bearing pressure $P_L = 734\ \mathrm{N/cm^2}$ | $P_{L,\max} = 1000\ \mathrm{N/cm^2}$ | **Passed** ($S_F = 1.36$) |
 | **Rear Axle Keyway** | SMS 2306 (Round-ended Key) | Min length $l_{kd,\mathrm{tot}} = 11.1\ \mathrm{mm}$ | Actual $L = 45.0\ \mathrm{mm}$ ($p_{\max} = 200\ \mathrm{MPa}$) | **$4.05\times$ Overdesigned** |
-| **Rear Axle Split Hub Clamp** | M8 Clamping Preload ($2\times$ Grade 8.8) | Normal clamping force $> 30\ \mathrm{kN}$ | Friction hold prevents axial slip | **Passed** |
+| **Rear Axle Split Hub Clamp** | M8 Clamping Preload ($2\times$ Grade 8.8) | Normal clamping force $> 30\ \mathrm{kN}$ | Friction hold prevents axial slip |  |
 
 ---
 
@@ -85,8 +85,8 @@ The system was simulated in MATLAB using `ode45` with variable inertia coupling 
 *Figure 4:* Dynamic engine ($n_1$), clutch ($n_2$), and rear axle ($n_3$) rotational speeds during a full-throttle 0–90 second acceleration profile.
 
 ### Verification Against Project Requirements
-* **Acceleration ($0 \rightarrow 50\ \mathrm{km/h}$):** Simulated at **$9.5\ \mathrm{s}$** (Requirement: $\le 10.0\ \mathrm{s}$) — **PASSED**
-* **Top Speed:** Theoretical maximum **$70.4\ \mathrm{km/h}$** at redline ($4000\ \mathrm{rpm}$) (Requirement: $\ge 65.0\ \mathrm{km/h}$) — **PASSED**
+* **Acceleration ($0 \rightarrow 50\ \mathrm{km/h}$):** Simulated at **$9.5\ \mathrm{s}$** 
+* **Top Speed:** Theoretical maximum **$70.4\ \mathrm{km/h}$** at redline ($4000\ \mathrm{rpm}$) 
 * **Clutch Slip Duration:** $7.7\ \mathrm{s}$ before full lockup at $2482\ \mathrm{rpm}$.
 
 ---
