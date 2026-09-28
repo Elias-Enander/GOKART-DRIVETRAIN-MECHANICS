@@ -85,8 +85,8 @@ The system was simulated in MATLAB using `ode45` with variable inertia coupling 
 *Figure 4:* Dynamic engine ($n_1$), clutch ($n_2$), and rear axle ($n_3$) rotational speeds during a full-throttle 0–90 second acceleration profile.
 
 ### Verification Against Project Requirements
-* **Acceleration ($0 \rightarrow 50\ \mathrm{km/h}$):** Simulated at **$9.5\ \mathrm{s}$** 
-* **Top Speed:** Theoretical maximum **$70.4\ \mathrm{km/h}$** at redline ($4000\ \mathrm{rpm}$) 
+* **Acceleration ($0 \rightarrow 50\ \mathrm{km/h}$):** Simulated at **$9.5\ \mathrm{s}$** (Requirement: $\le 10.0\ \mathrm{s}$)
+* **Top Speed:** Theoretical maximum **$70.4\ \mathrm{km/h}$** at redline ($4000\ \mathrm{rpm}$) (Requirement: $\ge 65.0\ \mathrm{km/h}$) 
 * **Clutch Slip Duration:** $7.7\ \mathrm{s}$ before full lockup at $2482\ \mathrm{rpm}$.
 
 ---
